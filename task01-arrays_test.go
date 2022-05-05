@@ -7,8 +7,8 @@ import (
 )
 
 func TestAverage(t *testing.T) {
-	var averageArgs = [15]float32{1, 2, 3, 4, 5, 6, 7, 3.5, 1, 2, 3, 4, 5, 6, 7}
-	var averageExpected float32 = 3.5
+	var averageArgs = [15]float32{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 7.5}
+	var averageExpected float32 = 7.5
 	var averageResult = average(averageArgs)
 
 	assert.Equal(t, averageExpected, averageResult)
